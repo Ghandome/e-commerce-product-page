@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ECOMMERCE PRODUCT PAGE</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="./Assets/images/favicon-32x32.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <header>
+
+            <nav>
+                <div class="menus">
+                    <img src="./Assets/images/icon-menu.svg" class="menu-icon" />
+                    <img src="./Assets/images/icon-close.svg" class="exit-menu-icon" />
+                </div>
+                
+                <img src="./Assets/images/logo.svg" alt="sneakers-wordings" class="sneakers-logo" />
+                <ul>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="cart-icon-avatar">
+                <div class="icon-wrap">
+                    <div class="cart-icon">
+                        <span class="cart-count">1</span>
+                        <img src="./Assets/images/icon-cart.svg" alt="cart" class="cart"/>
+                    </div>
+
+                    <img src="./Assets/images/image-avatar.png" class="avatar-img" />
+                </div>
+
+                   <div class="cart-info">
+                        <p>Cart</p>
+                        <div class="dont-cart">
+                            <div class="cart-info-content">
+                            <img src="./Assets/images/image-product-1-thumbnail.jpg" class="cart-thumb"/>
+                            <p>Fall Limited Edition Sneakers  <span>$125.00 <span>x</span> <span>3</span> <span class="pro-price-total">$375.00</span> </span> </p>
+                            <button class="trash-icon">
+                                <img src="./Assets/images/icon-delete.svg" alt="delete-icon" class="trash" />
+                            </button>
+                        </div>
+                        <button class="cart-button">Checkout</button>
+                        </div> 
+
+                        <div class="cart-empty">
+                            <p>Your cart is empty.</p>
+                        </div>
+                    </div>
+                </div>
+        </header>
+
+        <main>
+            <div class="product-main-container">
+                <div class="container-wrap">
+                    <div class="large-product-img">
+                    <img src="./Assets/images/image-product-1.jpg" alt="A pair of sneakers" class="large-img-sneakers" />
+                </div>
+
+                <div class="main-thumnails">
+                    <img src="./Assets/images/image-product-1-thumbnail.jpg" alt="A pair of sneakers" class="small-img-sneakers active" /> 
+                    <img src="./Assets/images/image-product-2-thumbnail.jpg" alt="A pair of sneakers" class="small-img-sneakers">
+                    <img src="./Assets/images/image-product-3-thumbnail.jpg" alt="A pair of sneakers" class="small-img-sneakers">
+                    <img src="./Assets/images/image-product-4-thumbnail.jpg" alt="A pair of sneakers" class="small-img-sneakers">
+                </div>
+                </div>
+
+                <div class="product-info-page">
+                    <p>SNEAKER COMPANY</p>
+
+                    <div class="product-headline">
+                        <h1>Fall Limited Edition <br> Sneakers</h1>
+                        <p>These low-profile sneakers are your perfect casual wear <br> companion. Featuring a durable rubber outer sole, they'll <br> withstand everything the weather can offer.</p>
+                    </div>
+
+                    <div class="price-discount">
+                        <p class="pro-price">$125.00</p>
+                        <p class="discount">50%</p>
+                    </div>
+
+                    <del>$250.00</del>
+
+                    <div class="pro-button">
+                        <div class="dein">
+                            <button class="decrement-btn"><img src="./Assets/images/icon-minus.svg" class="decrement"/></button>
+                            <button class="total-qty">0</button>
+                            <button class="increment-btn"><img src="./Assets/images/icon-plus.svg" class="increment"/></button>
+                        </div>
+                    
+                        <div class="add-cart">
+                            <button class="add-to-cart-btn"><img src="./Assets/images/icon-cart.svg" class="add-to-cart" /> Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="lightbox-gallery">
+
+            <div class="lightbox-wrap">
+                <img src="./Assets/images/icon-close.svg" alt="close" class="close-icon" />
+                    <div class="lightbox-large">
+                    <img src="./Assets/images/image-product-1.jpg" alt="A pair of sneakers" class="light-sneakers" />
+                </div>
+
+                <div class="next-pre">
+                        <img src="./Assets/images/icon-previous.svg" class="previous-icon" />
+                        <img src="./Assets/images/icon-next.svg" class="next-icon" />
+                </div>
+
+                <div class="lightbox-thumbnails">
+                    <img src="./Assets/images/image-product-1-thumbnail.jpg" alt="A pair of sneakers" class="light-img-sneakers active" /> 
+                    <img src="./Assets/images/image-product-2-thumbnail.jpg" alt="A pair of sneakers" class="light-img-sneakers">
+                    <img src="./Assets/images/image-product-3-thumbnail.jpg" alt="A pair of sneakers" class="light-img-sneakers">
+                    <img src="./Assets/images/image-product-4-thumbnail.jpg" alt="A pair of sneakers" class="light-img-sneakers">
+                </div>
+                </div>
+
+        </div>
+    </body>
+</html>
+
+
