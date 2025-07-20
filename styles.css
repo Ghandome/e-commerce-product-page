@@ -228,7 +228,7 @@ nav ul li a:hover::after {
 }
 
 .product-headline > h1 {
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 }
 
 .product-headline > p {
@@ -367,7 +367,7 @@ del {
 
 .next-pre {
     position: absolute;
-    top: 180px;
+    top: 190px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -431,13 +431,13 @@ html, body {
         flex-direction: column;
         position: fixed;
         top: 0;
-        right: 150px;
+        right: 170px;
         font-size: 50px;
         width: 250px;
         height: 100vh;
         background-color: var(--white-color);
         z-index: 1000;
-        padding: 120px 40px;
+        padding: 120px 50px;
         line-height: 45px;
         color: var(--dark-gray-blue);
         font-weight: 700;
@@ -475,7 +475,7 @@ html, body {
     }
 
     .product-info-page {
-        margin-top: 400px;
+        margin-top: 380px;
         position: relative;
     }
 
@@ -494,7 +494,7 @@ html, body {
 
     .lightbox-wrap {
     position: absolute;
-    top: 130px;
+    top: 120px;
     left: 5px;
     }
 
@@ -504,26 +504,27 @@ html, body {
 
     .lightbox-large img {
     width: 100%;
-    max-width: 433px;
+    max-width: 370px;
+    margin-left: 10px;
     z-index: 1000;
     }
 
     .next-pre {
     position: absolute;
-    top: 200px;
+    top: 170px;
     }
 
     .product-info-page > p {
-    font-size: 15px;
+    font-size: 12px;
     }
 
     .product-headline > h1 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
     }
 
     .product-headline > p {
-    font-size: 14px;
+    font-size: 12px;
     color: var(--dark-gray-blue);
     margin-bottom: 20px;
     }
@@ -531,8 +532,8 @@ html, body {
     del {
     font-size: 14px;
     position: absolute;
-    left: 280px;
-    top: 180px;
+    left: 250px;
+    top: 160px;
     }
 
     .pro-button {
